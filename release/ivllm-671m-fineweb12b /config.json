@@ -1,0 +1,21 @@
+{
+  "architecture": "IvLLM",
+  "vocab_size": 50304,
+  "dim": 1536,
+  "num_blocks": 24,
+  "num_q_heads": 24,
+  "num_kv_groups": 6,
+  "head_dim": 64,
+  "seq_length": 2048,
+  "rope_theta": 10000.0,
+  "tied_embeddings": true,
+  "norm": "rmsnorm",
+  "attention": "GQA",
+  "ffn": "SwiGLU",
+  "tokenizer": "gpt2 (tiktoken)",
+  "dtype": "bfloat16",
+  "trained_tokens_approx": 12238848000,
+  "training_step": 12459,
+  "training_data": "FineWeb (kjj0/fineweb100B-gpt2) first ~120 shards",
+  "params_total": 749151744
+}
